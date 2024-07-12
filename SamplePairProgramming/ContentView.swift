@@ -11,7 +11,14 @@ struct ContentView: View {
     var viewModel: LearnerDatabaseProtocol = SampleLearnerViewModel()
 
     var body: some View {
-        Text("Test ni bangg")
+        VStack {
+            Button(action: {
+                let success = viewModel.editLearnerBy(id: 100)
+            }, label: {
+                Text("Tap")
+            }).padding()
+        }
+        Text("Test ni bang")
         Button(action: {
             let success = viewModel.editLearnerBy(id: 100)
         }, label: {
