@@ -22,12 +22,6 @@ struct ContentView: View {
                 Text("Cobain aja")
             }
         }
-        Text("Test ni bang")
-        Button(action: {
-            let success = viewModel.editLearnerBy(id: 100)
-        }, label: {
-            Text("Tap")
-        }).padding()
     }
 }
 
