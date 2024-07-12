@@ -17,6 +17,10 @@ struct ContentView: View {
             }, label: {
                 Text("Tap")
             }).padding()
+            
+            HStack{
+                Text("Cobain aja")
+            }
         }
     }
 }
