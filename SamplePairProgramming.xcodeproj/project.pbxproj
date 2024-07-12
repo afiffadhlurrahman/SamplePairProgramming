@@ -11,6 +11,9 @@
 		EF7781742C40D17F00EBC8CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7781732C40D17F00EBC8CE /* ContentView.swift */; };
 		EF7781762C40D18100EBC8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7781752C40D18100EBC8CE /* Assets.xcassets */; };
 		EF7781792C40D18100EBC8CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7781782C40D18100EBC8CE /* Preview Assets.xcassets */; };
+		EF7781802C40D2B600EBC8CE /* LearnerDatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF77817F2C40D2B600EBC8CE /* LearnerDatabaseProtocol.swift */; };
+		EF7781822C40D32900EBC8CE /* SampleLearnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7781812C40D32900EBC8CE /* SampleLearnerViewModel.swift */; };
+		EF7781842C40D39800EBC8CE /* WorkingLearnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7781832C40D39800EBC8CE /* WorkingLearnerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EF7781732C40D17F00EBC8CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF7781752C40D18100EBC8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7781782C40D18100EBC8CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF77817F2C40D2B600EBC8CE /* LearnerDatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerDatabaseProtocol.swift; sourceTree = "<group>"; };
+		EF7781812C40D32900EBC8CE /* SampleLearnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLearnerViewModel.swift; sourceTree = "<group>"; };
+		EF7781832C40D39800EBC8CE /* WorkingLearnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingLearnerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				EF7781712C40D17F00EBC8CE /* SamplePairProgrammingApp.swift */,
 				EF7781732C40D17F00EBC8CE /* ContentView.swift */,
+				EF77817F2C40D2B600EBC8CE /* LearnerDatabaseProtocol.swift */,
+				EF7781812C40D32900EBC8CE /* SampleLearnerViewModel.swift */,
+				EF7781832C40D39800EBC8CE /* WorkingLearnerViewModel.swift */,
 				EF7781752C40D18100EBC8CE /* Assets.xcassets */,
 				EF7781772C40D18100EBC8CE /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7781802C40D2B600EBC8CE /* LearnerDatabaseProtocol.swift in Sources */,
 				EF7781742C40D17F00EBC8CE /* ContentView.swift in Sources */,
+				EF7781822C40D32900EBC8CE /* SampleLearnerViewModel.swift in Sources */,
 				EF7781722C40D17F00EBC8CE /* SamplePairProgrammingApp.swift in Sources */,
+				EF7781842C40D39800EBC8CE /* WorkingLearnerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
