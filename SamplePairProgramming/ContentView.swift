@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var viewModel: LearnerDatabaseProtocol = SampleLearnerViewModel()
-    
+
     var body: some View {
         VStack {
             Button(action: {
@@ -22,6 +22,12 @@ struct ContentView: View {
                 Text("Cobain aja")
             }
         }
+        Text("Test ni bang")
+        Button(action: {
+            let success = viewModel.editLearnerBy(id: 100)
+        }, label: {
+            Text("Tap")
+        }).padding()
     }
 }
 
