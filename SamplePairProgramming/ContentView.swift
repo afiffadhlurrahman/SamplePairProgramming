@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var viewModel: LearnerDatabaseProtocol = SampleLearnerViewModel()
-    
+
     var body: some View {
+        Text("Test ni bangg")
         Button(action: {
             let success = viewModel.editLearnerBy(id: 100)
         }, label: {
